@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="bestbuysearch"
+    errors="1" failures="0" hostname="" id="" package="bestbuysearch" skipped="0"
+    tests="1" time="0.01800" timestamp="Mon, 11 Jun 2018 21:23:01 GMT">
+  
+    <testcase name="Can I log in?" classname="bestbuysearch" time="0.01800" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Bestbuysearch / Can I log in?]:
+
+  Error: accountBtn was not found in &#34;selectors&#34;. Available elements: acctBtn,signInBtn,emailInput,passwordInput,submitBtn,searchInput,addToCart,goToCheckout,itemInCart,removeFromCart
+    at getElement (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:13:13)
+    at Page.click (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:81:32)
+    at Object.Can I log in? (/Users/j/devmtn/bestbuy/tests/bestbuysearch.js:18:14)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

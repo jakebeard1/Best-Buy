@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="2">
+
+  <testsuite name="bestbuysearch"
+    errors="0" failures="0" hostname="" id="" package="bestbuysearch" skipped="0"
+    tests="2" time="74.48" timestamp="Wed, 13 Jun 2018 20:10:11 GMT">
+  
+    <testcase name="Can I log in?" classname="bestbuysearch" time="40.58" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="can I add to cart?" classname="bestbuysearch" time="33.90" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
